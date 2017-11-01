@@ -1,3 +1,3 @@
-# Title: Getting started
+# Title: Wstęp
 <!-- Position: 1 -->
 ---

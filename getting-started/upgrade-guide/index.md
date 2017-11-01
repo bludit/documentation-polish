@@ -1,25 +1,25 @@
-# Title: Upgrade guide
+# Title: Przewodnik aktualizacji
 <!-- Position: 4 -->
 ---
-1. Make a full backup, all files and directories.
-2. Remember which version of Bludit you are using for a possible roll-back.
-3. Download the latest version from [the official page](https://www.bludit.com).
-4. Extract the zip file.
-5. Replace existing files with the new files.
-6. Log into the admin area.
-7. Done.
+1. Utwórz kopię zapasową wszystkich plików i katalogów.
+2. Zapamiętaj wersję, z której korzystałeś przed aktualizacją na wypadek możliwego powrotu.
+3. Pobierz najnowszą wersję Bludit [z oficjalnej strony](https://www.bludit.com).
+4. Rozpakuj plik zip.
+5. Prześlij nowe pliki na serwer zastępując stare.
+6. Zaloguj się do kokpitu.
+7. Gotowe.
 
 <div class="note">
-<div class="title">Upgrade from 1.x to 2.x</div>
-Before upgrade from 1.x read the release note on the [blog](https://blog.bludit.com) about the new version, there are extra steps to do.
+<div class="title">Aktualizacja z wersji 1.x do 2.x</div>
+Przed aktualizacją z wersji 1.x koniecznie sprawdź jeszcze ten wpis na [blogu](https://blog.bludit.com), który porusza kilka dodatkowych wskazówek do wykonania.
 </div>
 
 <div class="note">
-<div class="title">Important</div>
-After the upgrade, it's highly recommended to check your settings.
+<div class="title">Ważne</div>
+Po przeprowadzonej aktualizacji koniecznie sprawdź ustawienia Bludit.
 </div>
 
 <div class="note">
-<div class="title">Upload files</div>
-You can use a FTP client to upload files to the hosting.
+<div class="title">Przesyłanie plików</div>
+Aby przesłać pliki na serwer, skorzystaj z dedykowanego klienta sieci FTP.
 </div>

@@ -1,24 +1,24 @@
-# Title: Introduction
+# Title: Wprowadzenie
 <!-- Position: 1 -->
 ---
-Bludit is a web application to build your own **website** or **blog** in seconds, it's completely **free and open source**. Bludit uses files in **JSON** format to store the content, you don't need to install or configure a database. You only need a web server with PHP support.
+Bludit to całkowicie darmowa i otwarta źródłowo interentowa aplikacja, dzięki której stworzysz stronę lub bloga w dosłownie kilka sekund. Bludit używa plików w formacie JSON i tam gromadzi treści, co oznacza, że nie będzie Ci potrzeba zewnętrzna baza danych, a jedynie serwer z obsługą PHP.
 
-### Support
-Ask questions, get support and discuss about Bludit.
+### Wsparcie
+Zadawaj pytania, otrzymaj wsparcie i dyskutuj na temat Bludit.
 
-* [Gitter](https://gitter.im/bludit/support) Chat online
-* [Support forum](https://forum.bludit.org)
+* [Gitter](https://gitter.im/bludit/support)
+* [Forum wsparcia](https://forum.bludit.org)
 
-### Follow Bludit on
-Contact with the developers and users on different social networks.
+### Obserwuj Bludit
+Skontaktuj się z deweloperami i użytkownika na różnych sieciach społecznościowych.
 
 * [Twitter](https://twitter.com/bludit) **@bludit**
 * [Facebook](https://www.facebook.com/bluditcms)
 * [Google+](https://plus.google.com/+Bluditcms)
 * [Youtube](https://www.youtube.com/channel/UCuLu0Z_CHBsTiYTDz129x9Q)
 
-### License
-Bludit is open source software licensed under the [MIT license.](https://tldrlegal.com/license/mit-license)
+### Licencja
+Bludit wydawany jest na [licencji MIT.](https://tldrlegal.com/license/mit-license)
 
-### Collaborate with us
-You can improve this documentation on [Github: Bludit documentation](https://github.com/bludit/documentation-english).
+### Współpracuj z nami
+Możesz udoskonalić tę stronę na [Github: dokumentacja Bludit](https://github.com/bludit/documentation-polish).

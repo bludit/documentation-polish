@@ -1,18 +1,18 @@
-# Title: Installation guide
+# Title: Przewodnik instalacji
 <!-- Position: 3 -->
 ---
-1. Download the latest version from [the official page](https://www.bludit.com).
-2. Extract the zip file into a directory like `bludit`.
-3. Upload the directory `bludit` to your server/hosting.
-4. Visit your domain `https://example.com/bludit/`
-5. Follow the Bludit Installer to configure the website.
+1. Pobierz najnowszą wersję Bludit [z oficjalnej strony](https://www.bludit.com).
+2. Rozpakuj pobrany plik zip do katalogu, na przykład `bludit`.
+3. Prześlij katalog `bludit` na Twój serwer/hosting.
+4. Otwiedź swoją stronę internetową `https://example.com/bludit/`
+5. Podążaj za krokami instalatora, aby skonfigurować swoją stronę.
 
 <div class="note">
-<div class="title">Timezone</div>
-Bludit tries to find your timezone automatically but it is recommended to check it after the installation in the admin panel at <strong>Settings</strong> > <strong>Language</strong> > <strong>Timezone</strong>.
+<div class="title">Strefa czasowa</div>
+Bludit na ogół stara się samoistnie określić strefę czasową, w której się znajdujesz, jednak zaleca się, aby po zakończonej instalacji odwiedzić kokpit oraz sekcję <strong>Ustawienia</strong> > <strong>Język</strong> > <strong>Strefa czasowa</strong>.
 </div>
 
 <div class="note">
-<div class="title">Upload files</div>
-You can use an FTP client to upload files to the hosting.
+<div class="title">Przesyłanie plików</div>
+Aby przesłać pliki na serwer, skorzystaj z dedykowanego klienta sieci FTP.
 </div>

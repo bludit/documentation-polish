@@ -1,18 +1,18 @@
-# Title: Requirements
+# Title: Wymagania
 <!-- Position: 2 -->
 ---
-You just need a web server with PHP support.
+Potrzebujesz serwera z obsługą języka PHP.
 
-- PHP v5.3 or higher.
-- PHP [mbstring](http://php.net/manual/en/book.mbstring.php) module for full UTF-8 support.
-- PHP [gd](http://php.net/manual/en/book.image.php) module for image processing.
-- PHP [dom](http://php.net/manual/en/book.dom.php) module for DOM manipulation.
-- PHP [json](http://php.net/manual/en/book.json.php) module for JSON manipulation.
-- Supported web servers:
-  * Bludit supports almost every webserver
+- PHP v5.3 lub wyższa.
+- PHP [mbstring](http://php.net/manual/en/book.mbstring.php) moduł dla wsparcia kodowania UTF-8.
+- PHP [gd](http://php.net/manual/en/book.image.php) moduł do przetwarzania obrazków.
+- PHP [dom](http://php.net/manual/en/book.dom.php) moduł do manipulacji DOM.
+- PHP [json](http://php.net/manual/en/book.json.php) moduł do manipulacji JSON.
+- Wspierane serwery:
+  * Bludit wspiera większość serwerów
   * [PHP Built-in web server](http://php.net/manual/en/features.commandline.webserver.php)
-  * Nginx with module [ngx_http_rewrite_module](http://nginx.org/en/docs/http/ngx_http_rewrite_module.html)
-  * Apache with module [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html)
-  * Lighttpd with module [mod_rewrite](http://redmine.lighttpd.net/projects/1/wiki/docs_modrewrite)
+  * Nginx z modułem [ngx_http_rewrite_module](http://nginx.org/en/docs/http/ngx_http_rewrite_module.html)
+  * Apache z modułem [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html)
+  * Lighttpd z modułem [mod_rewrite](http://redmine.lighttpd.net/projects/1/wiki/docs_modrewrite)
   * Hiawatha, [rewrite rules](https://www.hiawatha-webserver.org/howto/url_rewrite_rules)
-  * H2O, see the post [H2O HTTP/2 web server and Bludit](https://forum.bludit.org/viewtopic.php?f=6&t=1015) in the Support Forum
+  * H2O, zobacz wpis [H2O HTTP/2 web server and Bludit](https://forum.bludit.org/viewtopic.php?f=6&t=1015) na forum wsparcia

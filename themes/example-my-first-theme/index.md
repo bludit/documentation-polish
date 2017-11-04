@@ -1,15 +1,15 @@
-# Title: Example: My first theme
+# Title: Example: Mój pierwszy motyw
 <!-- Position: 2 -->
 ---
-Let's create a new and simple theme, I will call my new theme `Coffee`.
+Stwórzmy teraz pierwszy, prosty motyw i nazwijmy go `Coffee`.
 
-- Create the folder theme, inside the folder `/bl-themes/`, you will get `/bl-themes/coffee/`
-- Create the folder `languages`, inside the folder `/bl-themes/coffee/`
-- Create the file `en.json` inside the folder `/bl-themes/coffee/languages/`
-- Create the file `metadata.json` inside the folder `/bl-themes/coffee/`
-- Create the file `index.php`, inside the folder `/bl-themes/coffee/`
+- Utwórz nowy folder wewnątrz katalogu `/bl-themes/`, otrzymasz wtedy ścieżkę `/bl-themes/coffee/`
+- Utwórz folder `languages`, wewnątrz `/bl-themes/coffee/`
+- Utwórz plik `en.json` wewnątrz `/bl-themes/coffee/languages/`
+- Utwórz plik `metadata.json` wewnątrz `/bl-themes/coffee/`
+- Utwórz plik `index.php`, wewnątrz `/bl-themes/coffee/`
 
-You are going to have the next folder and files structure.
+Struktura folderów i plików powinna być więc taka:
 ```
 /bl-themes/coffee/
 	language/en.json
@@ -17,7 +17,7 @@ You are going to have the next folder and files structure.
 	index.php
 ```
 
-Next steps are create the content of the files, let's start with the `index.php` and add the follow HTML and PHP code.
+Kolejnym krokiem będzie wypełnienie plików o stosowną zawartość zaczynając od pliku `index.php` umieść następujący kod HTML i PHP.
 <pre><code data-language="html"><!DOCTYPE html>
 <html>
 <head>
@@ -37,7 +37,7 @@ Next steps are create the content of the files, let's start with the `index.php`
 </html>
 </code></pre>
 
-Edit the file `languages/en.json` to add the name and description about the theme.
+Teraz w pliku `languages/en.json` umieść stosowne informacje dotyczące motywu.
 <pre><code data-language="php">{
 	"theme-data":
 	{
@@ -47,7 +47,7 @@ Edit the file `languages/en.json` to add the name and description about the them
 }
 </code></pre>
 
-Now edit the file `metadata.json` to complete the information about the theme.
+Teraz w pliku `metadata.json` uzupełnij bardziej szczegółowe informacje dotyczące motywu.
 <pre><code data-language="php">{
 	"author": "Bludit",
 	"email": "",
@@ -60,9 +60,9 @@ Now edit the file `metadata.json` to complete the information about the theme.
 }
 </code></pre>
 
-Congrats, you have your first theme for Bludit!
+Gratulacje, Twój pierwszy motyw jest już gotowy!
 
 <div class="note">
-<div class="title">Examples</div>
-We have a Github repository with examples, take a look <a href="https://github.com/bludit/examples">Bludit Examples</a>.
+<div class="title">Przykłady</div>
+Odwiedź nasze repozytorium w serwisie Github, aby rzucić okiem na <a href="https://github.com/bludit/examples">więcej przykładów</a>.
 </div>

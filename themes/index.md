@@ -1,3 +1,3 @@
-# Title: Themes
+# Title: Motywy
 <!-- Position: 3 -->
 ---

@@ -1,33 +1,33 @@
-# Title: Helper for themes
+# Title: Pomoce dla motywów
 <!-- Position: 100 -->
 ---
 
-This helper tries to help developers by making them write less code and keep it more clean.
+Pomoce dla motywów pozwalają deweloperom tworzyć motywyThis helper tries to help developers by making them write less code and keep it more clean.
 
-This object has static methods (see the colon where we call the methods).
+Ten obiekt zawiera statyczne metody.
 
-## Title
-Print `<title>` head tag with dynamic content from the settings of your site.
+## Tytuł
+Generuje tag `<title>` w sekcji head Twojej strony łącznie z nazwą wyświetlanej witryny.
 <pre><code data-language="php"><?php
 	echo Theme::headTitle();
 ?></code></pre>
 
 ```
-<title>Page title | Title site</title>
+<title>Nazwa strona | Nazwa witryny</title>
 ```
 
-## Description
-Print `<description>` head tag with the field description from your settings or from the page.
+## Opis
+Generuje tag `<description>` w sekcji head z opisem dołączonym do wyświetlanej strony lub ustawionym w ustawieniach głównych.
 <pre><code data-language="php"><?php
 	echo Theme::headDescription();
 ?></code></pre>
 
 ```
-<meta name="description" content="Description about your site">
+<meta name="description" content="Opis Twojej strony...">
 ```
 
-## CSS files
-This method generates the head tag to include the CSS file `blog.css` from the folder `/bludit/themes/{THEME_NAME}/css/`.
+## Pliki CSS
+Generuje w sekcji head ścieżkę motywu do pliku ze stylami `blog.css` z katalogu `/bludit/themes/{TWÓJ_MOTYW}/css/`.
 <pre><code data-language="php"><?php
 	echo Theme::css('css/blog.css');
 ?></code></pre>
@@ -36,7 +36,7 @@ This method generates the head tag to include the CSS file `blog.css` from the f
 <link rel="stylesheet" type="text/css" href="https://example.com/bl-themes/{THEME_NAME}/css/blog.css">
 ```
 
-Or include a batch of CSS files
+... lub w przypadku wielu plików tego samego typu:
 <pre><code data-language="php"><?php
 	echo Theme::css(array('css/file1.css', 'css/file2.css'));
 ?></code></pre>
@@ -46,8 +46,8 @@ Or include a batch of CSS files
 <link rel="stylesheet" type="text/css" href="https://example.com/bl-themes/{THEME_NAME}/css/file2.css">
 ```
 
-## Javascript files
-This method generates the tag to include the Javascript file `main.js` from the folder `/bludit/themes/{THEME_NAME}/js/`.
+## Pliki Javascript
+Generuje w sekcji head ścieżkę motywu do pliku ze skryptami `main.js` z katalogu `/bludit/themes/{THEME_NAME}/js/`.
 <pre><code data-language="php"><?php
 	echo Theme::js('js/main.js');
 ?></code></pre>
@@ -56,7 +56,7 @@ This method generates the tag to include the Javascript file `main.js` from the 
 <script src="https://example.com/bl-themes/{THEME_NAME}/js/main.js"></script>
 ```
 
-Or include a batch of Javascript files
+... lub w przypadku wielu plików tego samego typu:
 <pre><code data-language="php"><?php
 	echo Theme::js(array('js/file1.js', 'js/file2.js'));
 ?></code></pre>
@@ -67,7 +67,7 @@ Or include a batch of Javascript files
 ```
 
 ## Favicon
-This method generates the head tag for the favicon, in this example the favicon is on the root of the theme `/bludit/themes/{THEME_NAME}/favicon.png`.
+Generuje w sekcji head ścieżkę do ikony favicon, który w tym wypadku znajduje się w głównym katalogu motywu `/bludit/themes/{THEME_NAME}/favicon.png`.
 
 <pre><code data-language="php"><?php
 	echo Theme::favicon('favicon.png');
@@ -77,10 +77,10 @@ This method generates the head tag for the favicon, in this example the favicon 
 <link rel="shortcut icon" href="https://examples.com/bl-themes/{THEME_NAME}/favicon.png" type="image/png">
 ```
 
-## Include Plugins
-Bludit supports plugins and each plugin has hooks, you can add this plugin into different places on your theme.
+## Dołączanie pluginów
+Każda wtyczka posiada tzw. haki, dzięki czemu możesz umieścić te wtyczki w dowolnym miejscu motywu.
 
-For example, include all plugins with a hook on the head sections.
+Dla przykładu, dołączanie wtyczek z hakami do sekcji head.
 <pre><code data-language="php">
 <head>
 ...
@@ -91,7 +91,7 @@ For example, include all plugins with a hook on the head sections.
 </head>
 </code></pre>
 
-Include all plugins with the hook of the beginning of the body.
+Dołączanie wtyczek z hakami do sekcji body.
 <pre><code data-language="php">
 <body>
 <?php
@@ -101,8 +101,8 @@ Include all plugins with the hook of the beginning of the body.
 </body>
 </code></pre>
 
-## Include jQuery
-Bludit uses [jQuery](http://jquery.com) and provides a method to include it to your theme.
+## Dołączanie jQuery
+Bludit korzysta z [jQuery](http://jquery.com) i wprowadza metodę dołączania go do motywów.
 
 <pre><code data-language="php"><?php
 	echo Theme::jquery();
@@ -112,7 +112,7 @@ Bludit uses [jQuery](http://jquery.com) and provides a method to include it to y
 <script src="https://example.com/bl-kernel/js/jquery.min.js"></script>
 ```
 
-Or you can add [jQuery](http://jquery.com) from the official CDN.
+... lub dodaj [jQuery](http://jquery.com) z oficjalnego kanału CDN.
 
 <pre><code data-language="php"><?php
 	$cdn = true;
@@ -123,8 +123,8 @@ Or you can add [jQuery](http://jquery.com) from the official CDN.
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 ```
 
-## Include FontAwesome
-Bludit uses [FontAwesome](http://fontawesome.io) and provides a method to include it to your theme.
+## Dołączanie FontAwesome
+Bludit korzysta z [FontAwesome](http://fontawesome.io) wprowadza metodę dołączania go do motywów.
 
 <pre><code data-language="php"><?php
 	echo Theme::fontAwesome();
@@ -134,7 +134,7 @@ Bludit uses [FontAwesome](http://fontawesome.io) and provides a method to includ
 <link rel="stylesheet" href="https://example.com/bl-kernel/css/font-awesome/css/font-awesome.min.css">
 ```
 
-Or you can add [FontAwesome](http://fontawesome.io) from the CDN [BootstrapCDN](https://www.bootstrapcdn.com)
+... lub dodaj [FontAwesome](http://fontawesome.io) z oficjalnego kanału CDN [BootstrapCDN](https://www.bootstrapcdn.com)
 
 <pre><code data-language="php"><?php
 	$cdn = true;

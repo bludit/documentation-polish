@@ -1,18 +1,18 @@
-# Title: Plugin basics
+# Title: Podstawy
 <!-- Position: 1 -->
 ---
-Plugins in Bludit resides in `bl-plugins` folder, and they have a pre-defined structure. Each plugin is an object in Bludit, with differents hooks (methods).
+Wtyczki w Bludit znajdują się w katalogu `bl-plugins` o zdefiniowanej skrukturze. W Bludit, każda wtyczka jest obiektem ze zdefiniowanymi hakami (metodami).
 
-### Content
-1. [Hello World](#hello-world)
-2. [Plugin structure](#structure)
-3. [Information about the theme](#information)
-4. [Name and description](#name-description)
+### Spis treści
+1. [Wtyczka Hello World](#hello-world)
+2. [Struktura wtyczki](#structure)
+3. [Informajce o wtyczce](#information)
+4. [Nazwa i opis](#name-description)
 
 ---
 
 ## <i id="hello-world"></i> Hello World
-The Hello World plugin for Bludit.
+Wtyczka Hello World dla Bludit.
 <pre><code data-language="php"><?php
 	class pluginHello extends Plugin {
 		public function siteSidebar() {
@@ -22,7 +22,7 @@ The Hello World plugin for Bludit.
 ?></code></pre>
 
 ## <i id="structure"></i> Plugins structure
-This is a mandatory folder structure and files for a plugin.
+Tak wygląda obowiązkowa struktura folderów i plików dla wtyczek.
 ```
 /bl-plugins/{PLUGIN_NAME}/
 	language/en.php
@@ -30,8 +30,8 @@ This is a mandatory folder structure and files for a plugin.
 	plugin.php
 ```
 
-## <i id="information"></i> Information about the plugin
-The information of the plugin is in the JSON file `metadata.json`.
+## <i id="information"></i> Informacje o wtyczce
+Wszystkie informacje znajdują się w pliku JSON `metadata.json`.
 <pre><code data-language="JSON">{
 	"author": "Bludit",
 	"email": "",
@@ -43,8 +43,8 @@ The information of the plugin is in the JSON file `metadata.json`.
 	"notes": ""
 }</code></pre>
 
-## <i id="name-description"></i> Name and description
-The name and description of the plugin is in the JSON file `languages/en.json`.
+## <i id="name-description"></i> Nazwa i opis
+Nazwa i opis znajdują się w pliku JSON `languages/en.json`.
 <pre><code data-language="JSON">{
 	"plugin-data":
 	{
@@ -54,6 +54,6 @@ The name and description of the plugin is in the JSON file `languages/en.json`.
 }</code></pre>
 
 <div class="note">
-<div class="title">Examples</div>
-We have a Github repository with examples, take a look at <a href="https://github.com/bludit/examples">Bludit Examples</a>.
+<div class="title">Przykłady</div>
+Odwiedź nasze repozytorium w serwisie Github, aby rzucić okiem na <a href="https://github.com/bludit/examples">więcej przykładów</a>.
 </div>

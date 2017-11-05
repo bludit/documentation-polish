@@ -1,3 +1,3 @@
-# Title: Plugins
+# Title: Wtyczki
 <!-- Position: 4 -->
 ---

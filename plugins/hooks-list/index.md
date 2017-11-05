@@ -1,9 +1,9 @@
-# Title: Hooks list
+# Title: Lista haków
 <!-- Position: 2 -->
 ---
-Here is a list of Hooks supported by Bludit.
+Poniżej znajduje się lista haków wspieranych przez Bludit.
 
-| Hooks 			| Execute in 		| Notes						|
+| Hak 			| Wykonanie w 		| Uwagi						|
 | ------------------------------|-----------------------|-----------------------------------------------|
 | siteHead 			| Theme 		|						|
 | siteBodyBegin 		| Theme 		|						|
@@ -29,6 +29,6 @@ Here is a list of Hooks supported by Bludit.
 | loginBodyEnd			| Core			|						|
 
 <div class="note">
-<div class="title">Note</div>
-Not all the themes support the hooks for themes.
+<div class="title">Uwaga</div>
+Nie wszystkie motywy wspierają haki.
 </div>

@@ -1,3 +1,3 @@
-# Title: Languages
+# Title: Języki
 <!-- Position: 5 -->
 ---

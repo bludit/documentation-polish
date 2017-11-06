@@ -1,7 +1,7 @@
-# Title: Translate a plugin
+# Title: Tłumaczenie wtyczki
 <!-- Position: 1 -->
 ---
-Each plugin has a folder `languages`, in this folder you have the different dictionaries files for each language.
+Każdy plugin posiada folder o nazwie `languages`, w którym znajdują się różne pliki językowe dla każdego języka.
 
 ```
 /bl-plugins/<PLUGIN_NAME>/languages/
@@ -13,13 +13,13 @@ Each plugin has a folder `languages`, in this folder you have the different dict
 ```
 
 <div class="note">
-<div class="title">File Encoding</div>
-All dictionary files are <b>JSON</b> files and are encoding on <b>UTF-8</b>.
+<div class="title">Kodownaie plików</div>
+Format kodowania plików <b>JSON</b> to <b>UTF-8</b>.
 </div>
 
 ---
 
-This is an example of an English dictionary `en.json`. Each line in `en.json `file is a key-value pair with the key on the left and the value on the right.
+To jest prosty przykład zaczerpnięty z języka angielskiego, pliku `en.json`. Każda linia w tym pliku zawiera parę klucz-wartość. Klucz występuje po stronie lewej, wartość po prawej.
 
 <pre><code data-language="JSON">{
 	"plugin-data":
@@ -32,9 +32,9 @@ This is an example of an English dictionary `en.json`. Each line in `en.json `fi
 	"show-home-link": "Show home link"
 }</code></pre>
 
-As you can see, you have a field called `plugin-data`, this has the name and description of the plugin, and the next fields are phrases for the plugin as `home` and `show-home-link`.
+Jak widać, mamy do czynienia z polem zwanym `plugin-data`, w którym występuje nazwa oraz opis tej wtyczki. Kolejne pola w tym tłumaczeniu to frazy `home` oraz `show-home-link`.
 
-This is an example of a Spanish dictionary, the file is `es.json`.
+A teraz to samo, po hiszpańsku z plikiem `es.json`.
 
 <pre><code data-language="JSON">{
 	"plugin-data":

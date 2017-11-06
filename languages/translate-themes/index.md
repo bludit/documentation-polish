@@ -1,7 +1,7 @@
 # Title: Translate a theme
 <!-- Position: 2 -->
 ---
-Each theme has a folder `languages`, inside this folder you have the different dictionaries files for each language.
+Każdy motyw posiada folder o nazwie `languages`, w którym znajdują się różne pliki językowe dla każdego języka.
 
 ```
 /bl-themes/{THEME_NAME}/languages/
@@ -13,13 +13,13 @@ Each theme has a folder `languages`, inside this folder you have the different d
 ```
 
 <div class="note">
-<div class="title">File Encoding</div>
-All dictionary files are <b>JSON</b> files and are encoding on <b>UTF-8</b>.
+<div class="title">Kodownaie plików</div>
+Format kodowania plików <b>JSON</b> to <b>UTF-8</b>.
 </div>
 
 ---
 
-This is an example of an English dictionary `en.json`. Each line in `en.json` file is a key-value pair with the key on the left and the value on the right.
+To jest prosty przykład zaczerpnięty z języka angielskiego, pliku `en.json`. Każda linia w tym pliku zawiera parę klucz-wartość. Klucz występuje po stronie lewej, wartość po prawej.
 
 <pre><code data-language="JSON">{
 	"theme-data":
@@ -29,9 +29,9 @@ This is an example of an English dictionary `en.json`. Each line in `en.json` fi
 	}
 }</code></pre>
 
-As you can see, you have a field called `theme-data`, this has the name and description of the theme.
+Jak widać, mamy do czynienia z polem zwanym `theme-data`, w którym występuje nazwa oraz opis tego motywu.
 
-This is an example of a Spanish dictionary, the file is `es.json`.
+A teraz to samo, po hiszpańsku z plikiem `es.json`.
 
 <pre><code data-language="JSON">{
 	"theme-data":
